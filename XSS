@@ -2,3 +2,7 @@
   <input type="text" name="query" />
   <input type="submit" value="Search" />
 </form>
+
+Sanitize and escape user inputs – Use libraries like OWASP's ESAPI for encoding.
+Content Security Policy (CSP) – Use CSP headers to limit what JavaScript is executed.
+Use frameworks with built-in protections – Many modern frameworks include automatic escaping of user inputs.
